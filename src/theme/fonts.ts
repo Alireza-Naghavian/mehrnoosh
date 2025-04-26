@@ -1,0 +1,22 @@
+const fontFaces = `
+ @font-face {
+    font-family: "YekanBakh";
+    src: url("/fonts/YekanBakh/YekanBakh-Regular.woff2") format("woff2"),
+      url("/fonts/YekanBakh/YekanBakh-Regular.woff") format("woff");
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "YekanBakhSemi";
+    src: url("/fonts/YekanBakh/YekanBakh-SemiBold.woff2") format("woff2"),
+      url("/fonts/YekanBakh/YekanBakh-SemiBold.woff") format("woff");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "YekanBakhBold";
+    src: url("/fonts/YekanBakh/YekanBakh-Bold.woff2") format("woff2");
+    font-display: swap;
+  }
+`;
+
+export default fontFaces;
