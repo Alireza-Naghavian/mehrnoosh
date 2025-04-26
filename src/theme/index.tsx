@@ -7,6 +7,7 @@ import typography from "./typography";
 const ThemeProvider = ({children}:ChildrenProp) => {
   const theme = createTheme({
     typography,
+    direction:"rtl",
     components: {
       MuiCssBaseline: {
         styleOverrides: fontFaces,

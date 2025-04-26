@@ -3,7 +3,6 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
-  important: "#__next",
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
